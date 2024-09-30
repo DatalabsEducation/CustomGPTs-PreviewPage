@@ -19,7 +19,7 @@ h1 {
 
 /* Smaller and Centered Dropdown */
 select {
-    width: 30%; /* Smaller width */
+    width: 75%; /* Smaller width */
     padding: 10px;
     text-align: center;
     margin: 10px auto; /* Centered */
