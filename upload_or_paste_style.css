@@ -19,7 +19,7 @@ h1 {
 
 /* Smaller and Centered Dropdown */
 select {
-    width: 75%; /* Smaller width */
+    width: 25%; /* Smaller width */
     padding: 10px;
     text-align: center;
     margin: 10px auto; /* Centered */
@@ -100,4 +100,19 @@ iframe {
     width: 80%;
     height: 500px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    select {
+        width: 100%; /* Κάνει το dropdown να καταλαμβάνει όλο το πλάτος */
+        font-size: 16px; /* Αυξάνει το μέγεθος του κειμένου για ευκολότερη ανάγνωση */
+    }
+
+    textarea {
+        width: 100%; /* Κάνει τα textarea να καταλαμβάνουν όλο το πλάτος */
+    }
+
+    button {
+        width: 100%; /* Κάνει τα κουμπιά να καταλαμβάνουν όλο το πλάτος */
+    }
 }
